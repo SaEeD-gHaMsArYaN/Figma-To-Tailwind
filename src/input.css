@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply text-[#FCFCFD] rounded-[90px] py-4 px-6 text-center font-bold;
+    }
+}
+
+@layer utilities {
+    .bg-gradiant {
+        background: rgb(244,245,246);
+        background: linear-gradient(180deg, rgba(244,245,246,1) 0%, rgba(235,243,248,0) 35%);
+    }
+    .bg-gradiant-2 {
+        background: rgb(252,252,253);
+        background: linear-gradient(180deg, rgba(252,252,253,0) 0%, rgba(252,252,253,1) 100%);
+    }
+}

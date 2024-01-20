@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../src/font/DM_Sans/fonts.css">
+  <link rel="stylesheet" href="./output.css">
+</head>
+<body class="overflow-x-hidden bg-white">
+  <header>
+    <nav class="p-4 h-[112px] w-full bg-neutrals-7 flex justify-between items-center">
+        <a href="./home.html" class="lg:border-r-2 lg:border-neutrals-6 lg:pe-8">
+          <img src="./img/logo.svg" alt="Logo">
+        </a>
+        <button type="button" class="btn w-fit bg-transparent hover:border-2 hover:border-neutrals-6 justify-center items-center gap-2 ms-4 me-auto p-2 hidden lg:flex">
+          <span class="text-sm text-neutrals-4">List your property</span>
+          <img src="./img/down.svg" alt="">
+        </button>
+        <ul class="flex gap-x-6">
+          <li class="hidden lg:flex">
+            <button type="button" class="btn w-[182px] bg-transparent border-2 border-neutrals-4 hover:bg-neutrals-6 flex justify-center items-center gap-2 p-2 mx-auto">
+              <span class="text-sm text-neutrals-1">List your property</span>
+            </button>
+          </li>
+          <li class="flex items-center justify-center">
+            <img src="./img/Bell.svg" alt="Bell" class="cursor-pointer">
+          </li>
+          <li class="flex items-center justify-center">
+            <img src="./img/avatar.png" alt="Avatar" class="w-8 h-8 cursor-pointer">
+          </li>
+          <li class="flex items-center justify-center">
+            <img src="./img/Line.svg" alt="Line" class="cursor-pointer lg:hidden">
+          </li>
+        </ul>
+    </nav>
+
+    <div class="p-4 rounded-3xl">
+      <div class="h-auto flex flex-col flex-wrap items-center justify-center rounded-t-3xl bg-center bg-cover bg-no-repeat relative lg:!bg-none" style="background-image: url('./img/gradient0.svg');">
+        <div class="h-[370px] w-full flex flex-col justify-center items-center lg:hidden">
+          <h1 class="text-[64px] font-bold text-center leading-none">
+            Air, sleep, dream
+          </h1>
+          <p class="text-center pt-4 pb-8">Find and book a great experience.</p>
+          <button type="button" class="btn w-[182px] bg-primary-1 hover:bg-[#224db0]">
+            Start your search
+          </button>
+        </div>
+        <div class="h-auto w-full relative rounded-3xl">
+          <img src="./img/bg-1-mobile.png" alt="" class="rounded-b-3xl w-full h-auto lg:hidden">
+          <img src="./img/bg-1-tablet.png" alt="" class="rounded-b-3xl w-full h-auto hidden lg:flex lg:rounded-3xl">
+          <div class="h-[179px] mx-auto absolute bottom-3 right-0 left-0 w-full rounded-3xl px-3 lg:h-[255px] lg:-bottom-24 lg:mb-8">
+            <div class="w-full h-full rounded-3xl bg-neutrals-6 opacity-90 p-4 drop-shadow lg:opacity-100">
+              <ul class="flex justify-between lg:justify-start lg:gap-8">
+                <li class="text-neutrals-1 font-semibold underline underline-offset-8 cursor-pointer">Stays</li>
+                <li class="text-neutrals-4 font-semibold cursor-pointer">Flights</li>
+                <li class="text-neutrals-4 font-semibold cursor-pointer">Cars</li>
+                <li class="text-neutrals-4 font-semibold cursor-pointer">Things to do</li>
+              </ul>
+              <div class="flex justify-start items-end mt-auto" style="height: calc(100% - 24px);">
+                <div class="flex flex-auto flex-col justify-start items-start h-16">
+                  <h2 class="text-xl font-bold">Location</h2>
+                  <p class="text-neutrals-4 font-normal">Where are you going?</p>
+                </div>
+                <div class="flex justify-end">
+                  <img src="./img/search_icon.svg" alt="search" class="h-16 w-16">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="lg:mt-40">
+    <div class="p-4">
+      <h2 class="text-[40px] font-bold text-center text-neutrals-1 leading-none">Let’s go on an adventure</h2>
+      <p class="text-center text-neutrals-4 mt-4">Find and book a great experience.</p>
+      <div class="py-8 flex w-max mx-auto">
+        <div class="flex me-8">
+          <img src="./img/HolidaySummer.svg" alt="" class="w-[120px] h-auto">
+          <div class="ms-8 flex flex-col justify-center items-start gap-2 w-[136px]">
+            <span class="text-neutrals-1">Luxury resort at the sea</span>
+            <span class="bg-neutrals-6 p-2 text-center rounded-3xl font-bold text-xs">9,326 places</span>
+          </div>
+        </div>
+        
+        <div class="flex me-8">
+          <img src="./img/HolidayCamp.svg" alt="" class="w-[120px] h-auto">
+          <!-- <div class="ms-8 flex flex-col justify-center items-start gap-2 w-[136px]">
+            <span class="text-neutrals-1">Luxury resort at the sea</span>
+            <span class="bg-neutrals-6 p-2 text-center rounded-3xl font-bold text-xs">9,326 places</span>
+          </div> -->
+        </div>
+      </div>
+      <div class="flex justify-center items-center gap-8 pb-8">
+        <img src="./img/leftArrow.svg" alt="" class="p-4 w-12 h-12 cursor-pointer rounded-full hover:border hover:border-neutrals-4">
+        <img src="./img/rightArrow.svg" alt="" class="p-4 w-12 h-12 cursor-pointer rounded-full hover:border hover:border-neutrals-4">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="p-4 flex flex-col flex-wrap">
+      <div class="my-6">
+        <h2 class="text-[40px] font-bold text-start text-neutrals-1 leading-none">Travel to make memories all around the world</h2>
+        <p class="text-start text-neutrals-4 mt-4">Find trips that fit a flexible lifestyle</p>
+      </div>
+      <div class="my-6">
+        <span class="bg-primary-2 text-neutrals-7 rounded-3xl w-fit px-3 py-[2px]">
+          01
+        </span>
+        <h2 class="text-2xl font-bold text-start text-neutrals-1 leading-none mt-4">
+          Find trips that fit a flexible lifestyle
+        </h2>
+        <p class="text-start text-neutrals-4 mt-4">
+          Stacks is a production-ready library of stackable content blocks built in React Native
+        </p>
+      </div>
+      <div class="my-6">
+        <span class="bg-primary-3 text-neutrals-7 rounded-3xl w-fit px-3 py-[2px]">
+          02
+        </span>
+        <h2 class="text-2xl font-bold text-start text-neutrals-1 leading-none mt-4">
+          Travel with more confidence
+        </h2>
+        <p class="text-start text-neutrals-4 mt-4">
+          Stacks is a production-ready library of stackable content blocks built in React Native
+        </p>
+      </div>
+      <div class="my-6">
+        <span class="bg-primary-4 text-neutrals-7 rounded-3xl w-fit px-3 py-[2px]">
+          03
+        </span>
+        <h2 class="text-2xl font-bold text-start text-neutrals-1 leading-none mt-4">
+          See what’s really included
+        </h2>
+        <p class="text-start text-neutrals-4 mt-4">
+          Stacks is a production-ready library of stackable content blocks built in React Native
+        </p>
+      </div>
+      <div class="my-6">
+        <button type="button" class="btn w-[182px] bg-primary-1 hover:bg-[#224db0]">
+          Start your search
+        </button>
+      </div>
+      <div class="my-6 relative">
+        <img src="./img/slider-1.png" alt="" class="w-full h-auto rounded-3xl max-h-[700px]">
+        <div class="flex justify-center items-center gap-4 pb-8 absolute right-6 top-6">
+          <img src="./img/leftArrow-white.svg" alt="" class="p-4 w-12 h-12 cursor-pointer rounded-full hover:border hover:border-neutrals-7">
+          <img src="./img/rightArrow-white.svg" alt="" class="p-4 w-12 h-12 cursor-pointer rounded-full hover:border hover:border-neutrals-7">
+        </div>
+        <div class="bg-white drop-shadow-md rounded-[80px] flex absolute bottom-10 left-0 right-0 w-4/5 mx-auto p-3">
+          <img src="./img/avatar02.png" alt="" class="rounded-full w-12 h-12">
+          <div class="flex flex-col ms-4">
+            <span class="font-bold">Antone Heller</span>
+            <div class="flex justify-start items-center gap-2">
+              <img src="./img/star.svg" alt="" class="w-3 h-3">
+              <span>4.8</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="p-4 flex flex-col flex-wrap">
+      <h2 class="text-[40px] font-bold text-center text-neutrals-1 leading-none">How it work</h2>
+      <p class="text-center text-neutrals-4 mt-4">Keep calm & travel on</p>
+      <div class="my-6">
+        <img src="./img/icon-box-1.svg" alt="" class="mx-auto p-8">
+        <h2 class="text-2xl font-bold text-center text-neutrals-1 leading-none">
+          Book & relax
+        </h2>
+        <p class="text-center text-neutrals-4 mt-4">
+          We realize ideas from simple to complex, everything becomes easy to use.
+        </p>
+      </div>
+      <div class="my-6">
+        <img src="./img/icon-box-2.svg" alt="" class="mx-auto p-8">
+        <h2 class="text-2xl font-bold text-center text-neutrals-1 leading-none">
+          Smart checklist
+        </h2>
+        <p class="text-center text-neutrals-4 mt-4">
+          We realize ideas from simple to complex, everything becomes easy to use.
+        </p>
+      </div>
+      <div class="my-6">
+        <img src="./img/icon-box-3.svg" alt="" class="mx-auto p-8">
+        <h2 class="text-2xl font-bold text-center text-neutrals-1 leading-none">
+          Save more
+        </h2>
+        <p class="text-center text-neutrals-4 mt-4">
+          We realize ideas from simple to complex, everything becomes easy to use.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="p-4 pb-0">
+      <div class="my-6">
+        <h2 class="text-[40px] font-bold text-center text-neutrals-1 leading-none">
+          Stunning
+          <br>
+          Work
+        </h2>
+        <p class="text-center text-neutrals-4 mt-4">Keep calm & travel on</p>
+      </div>
+    </div>
+
+    <div class="p-4 flex flex-col flex-wrap">
+      
+      <div class="flex">
+        <div class="py-8 flex w-max mx-auto">
+          <div class="flex flex-col me-8">
+            <img src="./img/img-container-1.png" alt="" class="w-[311px] h-[375px]">
+            <span class="text-neutrals-1 text-center">Solo Landing Kit</span>
+            <span class="text-neutrals-4 text-center text-sm">Production, UI Design</span>
+          </div>
+        </div>
+        <div class="py-8 flex w-max mx-auto">
+          <div class="flex flex-col me-8">
+            <img src="./img/img-container-2.png" alt="" class="w-[311px] h-[375px]">
+            <span class="text-neutrals-1 text-center">Solo Landing Kit</span>
+            <span class="text-neutrals-4 text-center text-sm">Production, UI Design</span>
+          </div>
+        </div>
+        <div class="py-8 flex w-max mx-auto">
+          <div class="flex flex-col me-8">
+            <img src="./img/img-container-3.png" alt="" class="w-[311px] h-[375px]">
+            <span class="text-neutrals-1 text-center">Solo Landing Kit</span>
+            <span class="text-neutrals-4 text-center text-sm">Production, UI Design</span>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="p-4">
+      <div class="flex justify-center items-center gap-8 pb-8">
+        <img src="./img/leftArrow.svg" alt="" class="p-4 w-12 h-12 cursor-pointer rounded-full hover:border hover:border-neutrals-4">
+        <img src="./img/rightArrow.svg" alt="" class="p-4 w-12 h-12 cursor-pointer rounded-full hover:border hover:border-neutrals-4">
+      </div>
+      <button type="button" class="btn w-[182px] bg-transparent border-2 border-neutrals-4 hover:bg-neutrals-6 flex justify-center items-center gap-2 mx-auto">
+        <img src="./img/load.svg" alt="" class="w-3 h-3">
+        <span class="text-sm text-neutrals-1">Load more</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="bg-gray-50">
+    <div class="p-4">
+      <div class="my-6">
+        <h2 class="text-[40px] font-bold text-start text-neutrals-1 leading-none">Go somewhere</h2>
+        <p class="text-start text-neutrals-4 mt-4">Let’s go on an adventure</p>
+      </div>
+      <div class="my-6 flex flex-col gap-6">
+        <div class="rounded-xl bg-white drop-shadow flex items-center p-3">
+          <span class="text-sm me-auto">Featured</span>
+          <img src="./img/arrowDown.svg" alt="" class="">
+        </div>
+        <div class="rounded-xl bg-white drop-shadow flex items-center p-3">
+          <span class="text-sm me-auto">Recently added</span>
+          <img src="./img/arrowDown.svg" alt="" class="">
+        </div>
+      </div>
+      <div class="my-6 grid grid-cols-1 gap-6 lg:grid-cols-3">
+        <div class="rounded-2xl drop-shadow-md">
+          <img src="./img/card-1.png" alt="" class="rounded-t-2xl w-full">
+          <div class="bg-white flex flex-col flex-wrap rounded-b-2xl divide-y-2 divide-[#E6E8EC]">
+            <div class="flex w-full p-4">
+              <div class="flex flex-col mt-4 me-auto">
+                <span class="text-neutrals-1">The grand resort</span>
+                <span class="text-xs text-neutrals-3">Yasminfurt</span>
+              </div>
+              <div class="border-2 border-primary-4 rounded-[4px] mt-4 p-2 flex flex-col justify-center items-end h-11 w-auto">
+                <del class="text-neutrals-5 text-xs font-bold">$356</del>
+                <span class="text-primary-4 text-xs font-bold">$267</span>
+              </div>
+            </div>
+
+            <div class="flex items-center w-full p-4 text-xs">
+              <span class="text-neutrals-5 me-auto flex justify-center items-center">Tue, Jul 20 - Fri, Jul 23</span>
+              <div class="flex justify-start items-center gap-2">
+                <img src="./img/star.svg" alt="" class="w-3 h-3">
+                <span class="text-neutrals-1 font-bold">4.8</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="rounded-2xl drop-shadow-md">
+          <img src="./img/card-2.png" alt="" class="rounded-t-2xl w-full">
+          <div class="bg-white flex flex-col flex-wrap rounded-b-2xl divide-y-2 divide-[#E6E8EC]">
+            <div class="flex w-full p-4">
+              <div class="flex flex-col mt-4 me-auto">
+                <span class="text-neutrals-1">The grand resort</span>
+                <span class="text-xs text-neutrals-3">North Edenshire</span>
+              </div>
+              <div class="border-2 border-primary-4 rounded-[4px] mt-4 p-2 flex flex-col justify-center items-end h-11 w-auto">
+                <del class="text-neutrals-5 text-xs font-bold">$699</del>
+                <span class="text-primary-4 text-xs font-bold">$288</span>
+              </div>
+            </div>
+
+            <div class="flex items-center w-full p-4 text-xs">
+              <span class="text-neutrals-5 me-auto flex justify-center items-center">Tue, Jul 20 - Fri, Jul 23</span>
+              <div class="flex justify-start items-center gap-2">
+                <img src="./img/star.svg" alt="" class="w-3 h-3">
+                <span class="text-neutrals-1 font-bold">4.8</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="rounded-2xl drop-shadow-md">
+          <img src="./img/card-3.png" alt="" class="rounded-t-2xl w-full">
+          <div class="bg-white flex flex-col flex-wrap rounded-b-2xl divide-y-2 divide-[#E6E8EC]">
+            <div class="flex w-full p-4">
+              <div class="flex flex-col mt-4 me-auto">
+                <span class="text-neutrals-1">The grand resort</span>
+                <span class="text-xs text-neutrals-3">Archibaldtown</span>
+              </div>
+              <div class="border-2 border-primary-4 rounded-[4px] mt-4 p-2 flex flex-col justify-center items-end h-11 w-auto">
+                <del class="text-neutrals-5 text-xs font-bold">$699</del>
+                <span class="text-primary-4 text-xs font-bold">$548</span>
+              </div>
+            </div>
+
+            <div class="flex items-center w-full p-4 text-xs">
+              <span class="text-neutrals-5 me-auto flex justify-center items-center">Tue, Jul 20 - Fri, Jul 23</span>
+              <div class="flex justify-start items-center gap-2">
+                <img src="./img/star.svg" alt="" class="w-3 h-3">
+                <span class="text-neutrals-1 font-bold">4.9</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="rounded-2xl drop-shadow-md">
+          <img src="./img/card-3.png" alt="" class="rounded-t-2xl w-full">
+          <div class="bg-white flex flex-col flex-wrap rounded-b-2xl divide-y-2 divide-[#E6E8EC]">
+            <div class="flex w-full p-4">
+              <div class="flex flex-col mt-4 me-auto">
+                <span class="text-neutrals-1">The grand resort</span>
+                <span class="text-xs text-neutrals-3">Karineside</span>
+              </div>
+              <div class="border-2 border-primary-4 rounded-[4px] mt-4 p-2 flex flex-col justify-center items-end h-11 w-auto">
+                <del class="text-neutrals-5 text-xs font-bold">$699</del>
+                <span class="text-primary-4 text-xs font-bold">$548</span>
+              </div>
+            </div>
+
+            <div class="flex items-center w-full p-4 text-xs">
+              <span class="text-neutrals-5 me-auto flex justify-center items-center">Tue, Jul 20 - Fri, Jul 23</span>
+              <div class="flex justify-start items-center gap-2">
+                <img src="./img/star.svg" alt="" class="w-3 h-3">
+                <span class="text-neutrals-1 font-bold">4.9</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="rounded-2xl drop-shadow-md">
+          <img src="./img/card-4.png" alt="" class="rounded-t-2xl w-full">
+          <div class="bg-white flex flex-col flex-wrap rounded-b-2xl divide-y-2 divide-[#E6E8EC]">
+            <div class="flex w-full p-4">
+              <div class="flex flex-col mt-4 me-auto">
+                <span class="text-neutrals-1">The grand resort</span>
+                <span class="text-xs text-neutrals-3">East Barrett</span>
+              </div>
+              <div class="border-2 border-primary-4 rounded-[4px] mt-4 p-2 flex flex-col justify-center items-end h-11 w-auto">
+                <del class="text-neutrals-5 text-xs font-bold">$356</del>
+                <span class="text-primary-4 text-xs font-bold">$288</span>
+              </div>
+            </div>
+
+            <div class="flex items-center w-full p-4 text-xs">
+              <span class="text-neutrals-5 me-auto flex justify-center items-center">Tue, Jul 20 - Fri, Jul 23</span>
+              <div class="flex justify-start items-center gap-2">
+                <img src="./img/star.svg" alt="" class="w-3 h-3">
+                <span class="text-neutrals-1 font-bold">4.8</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="rounded-2xl drop-shadow-md">
+          <img src="./img/card-5.png" alt="" class="rounded-t-2xl w-full">
+          <div class="bg-white flex flex-col flex-wrap rounded-b-2xl divide-y-2 divide-[#E6E8EC]">
+            <div class="flex w-full p-4">
+              <div class="flex flex-col mt-4 me-auto">
+                <span class="text-neutrals-1">The grand resort</span>
+                <span class="text-xs text-neutrals-3">Steuberbury</span>
+              </div>
+              <div class="border-2 border-primary-4 rounded-[4px] mt-4 p-2 flex flex-col justify-center items-end h-11 w-auto">
+                <del class="text-neutrals-5 text-xs font-bold">$356</del>
+                <span class="text-primary-4 text-xs font-bold">$267</span>
+              </div>
+            </div>
+
+            <div class="flex items-center w-full p-4 text-xs">
+              <span class="text-neutrals-5 me-auto flex justify-center items-center">Tue, Jul 20 - Fri, Jul 23</span>
+              <div class="flex justify-start items-center gap-2">
+                <img src="./img/star.svg" alt="" class="w-3 h-3">
+                <span class="text-neutrals-1 font-bold">4.8</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-6 pb-10 w-full col-span-full">
+          <button type="button" class="btn w-auto bg-transparent border-2 border-neutrals-5 hover:bg-neutrals-6 flex justify-center items-center mx-auto p-2">
+            <span class="text-sm text-neutrals-1">View all</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="shadow">
+    <div class="p-4">
+      <div class="flex flex-col justify-center items-start">
+        <img src="./img/logo.svg" alt="" class="my-6">
+        <ul class="grid grid-cols-2 w-full gap-4 mb-6">
+          <li class="cursor-pointer text-neutrals-5 font-bold text-sm">About</li>
+          <li class="cursor-pointer text-neutrals-5 font-bold text-sm">Press</li>
+          <li class="cursor-pointer text-neutrals-5 font-bold text-sm">Projects</li>
+          <li class="cursor-pointer text-neutrals-5 font-bold text-sm">Jobs</li>
+          <li class="cursor-pointer text-neutrals-5 font-bold text-sm">What We Do</li>
+          <li class="cursor-pointer text-neutrals-5 font-bold text-sm">Download</li>
+        </ul>
+        <p class="text-xs font-bold">Join our community 🔥</p>
+        <div class="py-6 w-full relative">
+          <input type="email" name="email" placeholder="Enter your email"  class="border-2 border-neutrals-5 rounded-[90px] py-2 px-4 w-full">
+          <img src="./img/small-circle-button.svg" alt="" class="absolute right-4 top-[29px] cursor-pointer">
+        </div>
+        <div class="bg-[#F4F5F6] h-[1px] w-full my-8"></div>
+        <p class="text-xs font-medium text-neutrals-1">Copyright © 2021 UI8 LLC. All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
